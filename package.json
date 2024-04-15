@@ -1,6 +1,6 @@
 {
   "name": "default_server",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -12,6 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build"
   },
   "eslintConfig": {
